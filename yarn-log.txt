@@ -1,0 +1,53 @@
+PS F:\projects\nuxt-image-bug> yarn install
+yarn install v1.22.19
+info No lockfile found.
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+warning sharp@0.33.2: The engine "libvips" appears to be invalid.
+warning @img/sharp-darwin-arm64@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-darwin-arm64@0.33.2: The engine "glibc" appears to be invalid.
+warning @img/sharp-libvips-darwin-arm64@1.0.1: The engine "pnpm" appears to be invalid.
+warning @img/sharp-libvips-darwin-arm64@1.0.1: The engine "macos" appears to be invalid.
+warning @img/sharp-darwin-x64@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-darwin-x64@0.33.2: The engine "glibc" appears to be invalid.
+warning @img/sharp-libvips-darwin-x64@1.0.1: The engine "pnpm" appears to be invalid.
+warning @img/sharp-libvips-darwin-x64@1.0.1: The engine "macos" appears to be invalid.
+warning @img/sharp-libvips-linux-arm@1.0.1: The engine "pnpm" appears to be invalid.
+warning @img/sharp-libvips-linux-arm@1.0.1: The engine "glibc" appears to be invalid.
+warning @img/sharp-libvips-linux-arm64@1.0.1: The engine "pnpm" appears to be invalid.
+warning @img/sharp-libvips-linux-arm64@1.0.1: The engine "glibc" appears to be invalid.
+warning @img/sharp-libvips-linux-x64@1.0.1: The engine "pnpm" appears to be invalid.
+warning @img/sharp-libvips-linux-x64@1.0.1: The engine "glibc" appears to be invalid.
+warning @img/sharp-libvips-linuxmusl-arm64@1.0.1: The engine "pnpm" appears to be invalid.
+warning @img/sharp-libvips-linuxmusl-arm64@1.0.1: The engine "musl" appears to be invalid.
+warning @img/sharp-libvips-linux-s390x@1.0.1: The engine "pnpm" appears to be invalid.
+warning @img/sharp-libvips-linux-s390x@1.0.1: The engine "glibc" appears to be invalid.
+warning @img/sharp-linux-arm64@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-linux-arm64@0.33.2: The engine "glibc" appears to be invalid.
+warning @img/sharp-libvips-linuxmusl-x64@1.0.1: The engine "pnpm" appears to be invalid.
+warning @img/sharp-libvips-linuxmusl-x64@1.0.1: The engine "musl" appears to be invalid.
+warning @img/sharp-linux-s390x@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-linux-s390x@0.33.2: The engine "glibc" appears to be invalid.
+warning @img/sharp-linux-arm@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-linux-arm@0.33.2: The engine "glibc" appears to be invalid.
+warning @img/sharp-linux-x64@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-linux-x64@0.33.2: The engine "glibc" appears to be invalid.
+warning @img/sharp-win32-ia32@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-linuxmusl-x64@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-linuxmusl-x64@0.33.2: The engine "musl" appears to be invalid.
+warning @img/sharp-linuxmusl-arm64@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-linuxmusl-arm64@0.33.2: The engine "musl" appears to be invalid.
+warning @img/sharp-win32-x64@0.33.2: The engine "pnpm" appears to be invalid.
+warning @img/sharp-wasm32@0.33.2: The engine "pnpm" appears to be invalid.
+warning vscode-languageclient@7.0.0: The engine "vscode" appears to be invalid.
+[3/4] Linking dependencies...
+warning "nuxt > @nuxt/devtools@1.0.8" has unmet peer dependency "vite@*".
+warning "nuxt > @nuxt/devtools > vite-plugin-vue-inspector@4.0.2" has unmet peer dependency "vite@^3.0.0-0 || ^4.0.0-0 || ^5.0.0-0".
+warning "nuxt > @nuxt/devtools > vite-plugin-inspect@0.8.2" has unmet peer dependency "vite@^3.1.0 || ^4.0.0 || ^5.0.0-0".
+warning "nuxt > @nuxt/devtools > @nuxt/devtools-kit@1.0.8" has unmet peer dependency "vite@*".
+[4/4] Building fresh packages...
+success Saved lockfile.
+$ nuxt prepare
+✔ Types generated in .nuxt                                                                                                                                                                                                             9:16:08 PM
+Done in 37.21s.
+PS F:\projects\nuxt-image-bug>
